@@ -1,0 +1,28 @@
+{
+  "name": "page",
+  "version": "1.0.0",
+  "description": "page hub",
+  "main": "index.js",
+  "scripts": {
+    "server:watch": "babel -d server/dist server/src --watch"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-2"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yofine/pagehub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yofine/pagehub/issues"
+  },
+  "homepage": "https://github.com/yofine/pagehub#readme",
+  "dependencies": {
+    "koa-router": "^7.0.1"
+  }
+}
